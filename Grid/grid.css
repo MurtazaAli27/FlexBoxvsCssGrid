@@ -1,0 +1,61 @@
+    /*Grid Container Section*/
+.wrapper{
+    display: grid;
+    grid-template: auto/repeat(12, 1fr);
+    grid-template-areas: 
+        "h h h h h h h h h h h h"
+        "m m m m m m m m s s s s"
+        "f f f f f f f f f f f f";
+}
+
+    /*Header Section*/
+.header{
+    grid-area: h;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 50px auto;
+
+}
+
+    /*Main Section*/
+.main{
+    grid-area: m; 
+    display: grid;
+    justify-items: center;
+}
+
+    /*Sidebar Section*/
+.sidebar {grid-area: s;}
+.sideMenu {
+    display: grid;
+    grid-gap: 30px;
+    grid-auto-flow: column;
+    grid-template: repeat(9,20px)/repeat(2, 200px);
+}
+
+    /*Footer Section*/
+.footer {
+    grid-area: f;
+    display: grid;
+    grid-gap: 10px;
+    place-content: center;
+    grid-template: auto 80px/repeat(2, 250px);
+    grid-template-areas:
+        "fth fth"
+        "rw1 rw2";
+
+}
+#ftheader {
+    justify-self: center;
+    grid-area: fth;
+}
+#rw1 {grid-area: rw1;}
+#rw2 {grid-area: rw2;}
+
+    /*for centering the text inside the divs vertically&horizontally center*/
+.header>div,
+.main>div,
+.footer>div{
+    display: grid;
+    place-content: center;
+}

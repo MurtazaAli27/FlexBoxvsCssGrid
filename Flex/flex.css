@@ -1,0 +1,30 @@
+    /*Header section*/
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+    /*Main section*/
+.main-sidebar-wrapper{
+    display: flex
+}
+
+    /*Sidebar section*/
+#sdRow{
+    display: flex;
+}
+
+    /*footer section*/
+#ftrow{
+    display: flex;
+    justify-content: center;
+}
+
+    /*for centering the text inside the divs vertically&horizontally center*/
+.header>div,
+.main>div,
+.footer>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,55 @@
+    /*Global Css*/
+body {
+    margin: 0;
+    color: white;
+    font-family: 'SF Pro Display';
+}
+    /*Common border-radius styling*/
+#logo, #nav, #heading, #desc, #side, #ftheader, #rw1, #rw2 {border-radius: 2px;}
+
+    /*Header section*/
+.header {
+    padding: 10px;
+    background-color: #ff6347;
+}
+    /*Common color styling*/
+#logo, #nav {height: 50px; background-color: #ff7e67;}
+#logo {width: 50px;}
+#nav {width: 100%;}
+
+    /*Main section*/
+.main {
+    padding: 10px;
+    background-color: #bebebe;
+}
+    /*Common color styling*/
+#heading, #img, #desc {background-color: #cecece;}
+#heading {width: 500px; height: 40px;}
+#img {
+    margin: 10 0;
+    border-radius: 50%;
+    width: 150px; height: 150px;
+}
+#desc {width: 450px; height: 330px;}
+
+    /*Sidebar section*/
+.sidebar {
+    padding: 10px;
+    text-align: center;
+    background-color: #4da9ff;
+}
+#side {
+    width: 200px; height: 20px;
+    background-color: #6ab7ff;
+}
+
+    /*Footer section*/
+.footer {
+    height: 100px;
+    padding: 10px;
+    background-color: #292929;
+}
+    /*Common color styling*/
+#ftheader, #rw1, #rw2 {background-color: #333333;}
+#ftheader {width: 600px;}
+#rw1, #rw2 {width: 250px; height: 80px;}
